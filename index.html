@@ -38,6 +38,7 @@
         <div class="container-fluid">
             <div class ="row">
                 <div class="col-md-3">
+                    <div class="filters">
                     <form class="bg-dark">
                         <p>Filter Search</p>
                     </form>
@@ -51,21 +52,19 @@
                             <input type="text" placeholder="roswell" id="city" />
                         </li>
                         <li class="list-group-item bg-dark">
+                            <label for="state">Enter State</label>
+                            <input type="text" placeholder="ca" id="state" />
+                        </li>
+                        <li class="list-group-item bg-dark">
                             <label for="country">Enter County</label>
                             <input type="text" placeholder="us" id="country" />
                         </li>
                         <li class="list-group-item bg-dark">
                             <label for="shape">Enter Shape</label>
-                            <input type="text" placeholder="disc" id="shape" />
-                        </li>
-
-
-
-                        <!-- Button Commented out -->
-                        <li class="list-group-item bg-dark">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                            <input type="text" placeholder="circle" id="shape" />
                         </li>
                     </ul>
+                    </div>
                 </div>
                 <div class="col-md-9">
                     <table class="table table-striped">
