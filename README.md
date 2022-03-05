@@ -2,10 +2,15 @@
 ## Overview 
 Using JavaScript functions in combination with HTML & CSS, build and display a webpage that can filter UFO sighting data according to five different criteria. 
 ## Results 
-- 
+- To search for sightings on the webpage, complete any of the available criteria. We will begin with the date:
+![datesearch.png](static/Images/datesearch.png)
+*Here, you can see the search parameters are also printed to the console.* 
+- Continue to add additional filters to the data: 
+![datestate.png](static/Images/datestate.png)
+
 - Finally, to clear all filters, use the ‘UFO Sightings’ link in the navigation bar at the top of the page:
 
-![NavBar.png](static/images/navbar.png)
+![navbar.png](static/Images/navbar.png)
 
 
 
